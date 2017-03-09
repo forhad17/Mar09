@@ -18,6 +18,7 @@ public class CBT {
 	@BeforeTest
 	@Parameters("browser")
 	
+	//Added a comment message in this line
 	public void openBrowser(String browser){
 		if (browser.equals("Firefox")){
 		driver = new FirefoxDriver();	
