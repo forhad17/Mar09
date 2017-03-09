@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CBTSuite]">
+  <parameter name="browser" value="Edge"/>
+  <test name="IETest(failed)">
+    <parameter name="browser" value="Internet Explorer"/>
+    <classes>
+      <class name="demo.CBT">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyText"/>
+        </methods>
+      </class> <!-- demo.CBT -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+  <test name="EdgeTest(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="demo.CBT">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyText"/>
+        </methods>
+      </class> <!-- demo.CBT -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [CBTSuite] -->
